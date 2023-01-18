@@ -6,7 +6,7 @@ This is a simple template that allows you to create a Typescript Express REST AP
 
 - Use traditional Express syntax (e.g. `app.get("/hello"...`) rather than having a `handler` per endpoint like [this](https://github.com/aws/aws-sam-cli-app-templates/blob/master/nodejs18.x/hello-ts/%7B%7Bcookiecutter.project_name%7D%7D/hello-world/app.ts)
 
-  - Makes it easier to migrate to ECS
+  - Makes it easier to migrate to Dockerise (useful if you wanted to migrate to ECS)
   - Simplifies local development
 
 - Built with [esbuild](https://esbuild.github.io/) (billed as being 10-100x faster than other build tools)
