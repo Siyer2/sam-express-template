@@ -21,6 +21,8 @@ $ npm start
 
 ### Running it locally with SAM
 
+(AWS SAM can be installed [here](https://aws.amazon.com/serverless/sam/))
+
 You can also run it locally to _exactly_ match the configuation in the template.yml (e.g. to make it adhere to the set timeout, memory limit etc.)
 
 ```
